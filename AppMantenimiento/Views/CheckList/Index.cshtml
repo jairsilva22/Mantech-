@@ -1,0 +1,122 @@
+﻿<div class="container py-4">
+	<h1 class="display-6 text-center mb-4">📝 Mis CheckLists</h1>
+
+	<div class="text-center">
+		<button type="button" class="btn btn-gradient btn-lg mb-4" onclick="agregarNuevoCheckListAlListado()">
+			<i class="bi bi-plus-circle-fill me-2"></i>Agregar nuevo checklist
+		</button>
+	</div>
+
+	<div id="contenedor-listado-checklist">
+		<div class="row g-3" data-bind="foreach: checkLists">
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="card shadow-sm h-100 checklist-card" data-bind="click: manejarClickCheckList, css: { 'border-primary': !esNuevo() }" style="cursor: pointer;">
+					<div class="card-body">
+						<!-- Nombre mostrado -->
+						<h5 class="card-title d-flex align-items-center gap-2" data-bind="text: nombre, hidden: esNuevo">
+							<i class="bi bi-card-checklist text-primary"></i>
+						</h5>
+
+						<!-- Input si es nuevo -->
+						<input type="text" class="form-control" name="titulo-checkList"
+							   data-bind="value: nombre, visible: esNuevo,
+								attr: { 'data-id': id },
+								event: { focusout: manejarFocusOutTituloTarea }"
+							   placeholder="Nombre del checklist" autocomplete="off" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Spinner de carga -->
+		<div class="text-center mt-4" data-bind="visible: cargando">
+			<div class="spinner-border text-primary" role="status">
+				<span class="visually-hidden">Cargando...</span>
+			</div>
+		</div>
+
+		<!-- Alerta cuando no hay -->
+		<div data-bind="visible: noHayChecklists" class="alert alert-info text-center mt-4">
+			<i class="bi bi-info-circle-fill me-2"></i>No hay checklists para mostrar.
+		</div>
+	</div>
+</div>
+
+<partial name="_ModalCheckList" />
+
+@section scripts{
+
+	<script src="~/js/CheckList.js" asp-asp-asp-append-version="true" ></script>
+	<script src="~/js/Utilidades.js" asp-asp-asp-append-version="true" ></script>
+	<script src="~/js/ItemsCheckList.js" asp-asp-asp-append-version="true" ></script>
+	
+
+	<script>
+
+
+		const urlCheckList = "/api/checkList"
+		const urlItems = "/api/Items"
+
+		const modalEditarCheckList = document.getElementById("modal-editar-checkList");
+		const modalEditarCheckListBootstrap = new bootstrap.Modal(modalEditarCheckList);
+
+		function checklistElementoViewModel({ id, nombre }) {
+			var self = this;
+			self.id = ko.observable(id || 0);
+			self.nombre = ko.observable(nombre || '');
+
+			self.esNuevo = ko.pureComputed(function () {
+				return self.id() === 0;
+			});
+		}
+
+		function checklistListadoViewModelFn() {
+			var self = this;
+			self.checkLists  = ko.observableArray([]);
+			self.cargando = ko.observable(true);
+
+			self.noHayChecklists = ko.pureComputed(function () {
+				if (self.cargando()) return false;
+				return self.checkLists().length === 0;
+			});
+		}
+
+
+		const checklistListadoViewModel = new checklistListadoViewModelFn();
+
+
+		function itemsViewModel({id, descripcion,modoEdicion}){
+			var self = this;
+			self.id = ko.observable(id || 0);
+			self.descripcion = ko.observable(descripcion || '');
+			self.descripcionAnterior = '';
+			self.modoEdicion = ko.observable(modoEdicion);
+
+			self.esNuevo = ko.pureComputed(function () {
+				return self.id() === 0;
+			});
+		}
+
+		const checkListEditViewModel = {
+			nombre: ko.observable(""),
+			id: 0,
+			items: ko.observableArray([])
+
+		};
+
+
+
+
+		obtenerCheckLists();
+		ko.applyBindings(checklistListadoViewModel, document.getElementById("contenedor-listado-checklist"));
+
+		ko.applyBindings(checkListEditViewModel, modalEditarCheckList);
+
+	</script>
+
+
+
+
+
+
+}

@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppMantenimiento
+build_property.RootNamespace = AppMantenimiento
+build_property.ProjectDir = C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Account/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Account/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Account/Registro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/CheckList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tMaXN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/CheckList/_Items.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tMaXN0XF9JdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/CheckList/_ModalCheckList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tMaXN0XF9Nb2RhbENoZWNrTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Maquinas/Agregar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFxdWluYXNcQWdyZWdhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Maquinas/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFxdWluYXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Maquinas/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFxdWluYXNcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Maquinas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFxdWluYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Shared/_CambiarIdioma.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYW1iaWFySWRpb21hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Shared/_LinksLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaW5rc0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vog20/OneDrive/Escritorio/NET curso/AppMantenimiento/AppMantenimiento/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f45uhuuww0

@@ -1,0 +1,89 @@
+﻿body {
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%);;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background-color: white;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+input.styled-input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    transition: border-color 0.3s;
+}
+
+    input.styled-input:focus {
+        border-color: #667eea;
+        box-shadow: none;
+        outline: none;
+    }
+
+.input-group-text {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    background-color: white;
+}
+
+.toggle-password i {
+    transition: color 0.2s;
+}
+
+.toggle-password:hover i {
+    color: #667eea;
+}
+
+
+
+
+/* Estilos para el layout */
+.login-wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.image-side {
+    margin-right: 5rem;
+}
+
+    .image-side img {
+        max-height: 500px;
+        width: auto;
+    }
+
+.form-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* 🔽 RESPONSIVE para pantallas pequeñas */
+@media (max-width: 1000px) {
+    .login-wrapper {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .image-side {
+        display: none;
+    }
+
+    .form-side {
+        width: 100%;
+    }
+}

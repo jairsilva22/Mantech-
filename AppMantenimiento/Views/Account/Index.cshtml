@@ -1,0 +1,69 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.AspNetCore.Mvc.Rendering
+@inject IViewLocalizer Localizer
+
+@if (!string.IsNullOrEmpty(Model.Mensaje))
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @Model.Mensaje
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+    </div>
+}
+
+
+<div class=" mt-4 align-items-center">
+    <div class="alert alert-light border-start border-2 border-secondary shadow-sm mb-4  p-2" role="alert" style="background-color: #f9f9f9;">
+		@Localizer["Info"]
+    </div>
+
+    <div class="col-12 text-md-end">
+        <div>
+            <a asp-action="Registro" class="btn btn-primary shadow-sm" style="background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%);; border: none;">
+				<i class="fas fa-user-plus me-2"></i>@Localizer["Agregar"]
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div class="table-responsive mt-2">
+    <table class="table table-bordered align-middle shadow-sm">
+        <thead class="encabezado-tabla">
+            <tr class="text-center">
+                <th>@Localizer["Email"]</th>
+                <th>@Localizer["Tel"]</th>
+                <th>Rol</th>
+                <th style="width: 120px;">@Localizer["Acciones"]</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model.Usuarios)
+            {
+                <tr>
+                    <td class="text-center">@usuario.Email</td>
+                    <td class="text-center">@usuario.PhoneNumber</td>
+                    <td class="text-center">@usuario.Rol</td>
+                    <td class="text-center">
+                        <a asp-action="Editar" asp-route-id="@usuario.Id" class="btn btn-outline-primary btn-sm me-1" title="Editar">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <a asp-action="Eliminar" asp-route-id="@usuario.Id" class="btn btn-outline-danger btn-sm" title="Eliminar">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@if (Model.Usuarios.Count == 0)
+{
+    <div class="alert alert-info text-center mt-4">
+        No hay usuarios registrados en el sistema.
+    </div>
+}
+
+@section Scripts {
+    
+}

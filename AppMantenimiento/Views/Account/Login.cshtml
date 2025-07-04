@@ -1,0 +1,66 @@
+﻿@model LoginViewModel
+@{
+	ViewData["Title"] = "Login";
+	Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+
+}
+
+
+
+<div class="login-container d-flex justify-content-center align-items-center min-vh-100">
+<div class="card">
+	<h2 class="text-center">Iniciar sesión</h2>
+	<form asp-action="Login" method="post" asp-controller="Account">
+		<!-- Email -->
+		<div class="form-group mb-3 position-relative">
+			<label asp-for="Email">Correo electrónico</label>
+			<div class="input-group">
+				<span class="input-group-text"><i class="bi bi-envelope-fill text-primary"></i></span>
+				<input asp-for="Email" class="form-control styled-input" />
+			</div>
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+
+		<!-- Password -->
+		<div class="form-group mb-3 position-relative">
+			<label asp-for="Password">Contraseña</label>
+			<div class="input-group">
+				<span class="input-group-text "><i class="bi bi-lock-fill text-primary"></i></span>
+				<input asp-for="Password" type="password" class="form-control styled-input" id="passwordInput" />
+				<span class="input-group-text toggle-password" style="cursor:pointer;">
+					<i class="bi bi-eye-fill" id="toggleIcon"></i>
+				</span>
+			</div>
+			<span asp-validation-for="Password" class="text-danger"></span>
+		</div>
+
+		<!-- Remember Me -->
+		<div class="form-group form-check mb-3">
+			<input asp-for="RememberMe" type="checkbox" class="form-check-input" />
+			<label asp-for="RememberMe" class="form-check-label">Recordarme</label>
+		</div>
+
+		<!-- Summary -->
+		<div asp-validation-summary="All" class="text-bg-danger"></div>
+
+		<!-- Submit -->
+		<button type="submit" class="btn btn-primary btn-block w-100 mt-3">Iniciar sesión</button>
+	</form>
+</div>
+</div>
+
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+    <script>
+                document.querySelector('.toggle-password').addEventListener('click', function () {
+            const input = document.getElementById('passwordInput');
+            const icon = document.getElementById('toggleIcon');
+            const isPassword = input.type === 'password';
+
+            input.type = isPassword ? 'text' : 'password';
+            icon.classList.toggle('bi-eye-fill', !isPassword);
+            icon.classList.toggle('bi-eye-slash-fill', isPassword);
+        });
+    </script>
+}
