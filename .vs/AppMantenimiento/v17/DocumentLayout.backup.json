@@ -3,48 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\wwwroot\\js\\maquinaschecklist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\wwwroot\\js\\maquinaschecklist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\views\\checklist\\_modalchecklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\views\\checklist\\_modalchecklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\controllersapi\\maquinaschecklistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\controllersapi\\maquinaschecklistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\views\\checklist\\_items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\views\\checklist\\_items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\views\\maquinas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\views\\maquinas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\views\\checklist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\views\\checklist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\wwwroot\\js\\itemschecklist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\wwwroot\\js\\itemschecklist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\controllersapi\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\controllersapi\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\wwwroot\\js\\checklist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\wwwroot\\js\\checklist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\controllersapi\\maquinasapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\controllersapi\\maquinasapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\wwwroot\\js\\utilidades.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\wwwroot\\js\\utilidades.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\dtos\\checklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\dtos\\checklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|c:\\users\\vog20\\onedrive\\escritorio\\net curso\\appmantenimiento\\appmantenimiento\\views\\maquinas\\_modales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE416317-60BD-4910-82F2-E9C80E74D5B2}|AppMantenimiento\\AppMantenimiento.csproj|solutionrelative:appmantenimiento\\views\\maquinas\\_modales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,147 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Dtos\\ItemDTO.cs",
-              "RelativeDocumentMoniker": "AppMantenimiento\\Dtos\\ItemDTO.cs",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Dtos\\ItemDTO.cs",
-              "RelativeToolTip": "AppMantenimiento\\Dtos\\ItemDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T08:09:47.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\ControllersApi\\ItemsController.cs",
-              "RelativeDocumentMoniker": "AppMantenimiento\\ControllersApi\\ItemsController.cs",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\ControllersApi\\ItemsController.cs",
-              "RelativeToolTip": "AppMantenimiento\\ControllersApi\\ItemsController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAuwE4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T08:08:05.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemsCheckList.js",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\js\\ItemsCheckList.js",
-              "RelativeDocumentMoniker": "AppMantenimiento\\wwwroot\\js\\ItemsCheckList.js",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\js\\ItemsCheckList.js",
-              "RelativeToolTip": "AppMantenimiento\\wwwroot\\js\\ItemsCheckList.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-03T07:49:02.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Items.cshtml",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\CheckList\\_Items.cshtml",
-              "RelativeDocumentMoniker": "AppMantenimiento\\Views\\CheckList\\_Items.cshtml",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\CheckList\\_Items.cshtml",
-              "RelativeToolTip": "AppMantenimiento\\Views\\CheckList\\_Items.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T07:01:59.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "AppMantenimiento\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "AppMantenimiento\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAAABwBAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-03T06:53:14.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CheckListDTO.cs",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Dtos\\CheckListDTO.cs",
-              "RelativeDocumentMoniker": "AppMantenimiento\\Dtos\\CheckListDTO.cs",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Dtos\\CheckListDTO.cs",
-              "RelativeToolTip": "AppMantenimiento\\Dtos\\CheckListDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T06:45:53.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Utilidades.js",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\js\\Utilidades.js",
-              "RelativeDocumentMoniker": "AppMantenimiento\\wwwroot\\js\\Utilidades.js",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\js\\Utilidades.js",
-              "RelativeToolTip": "AppMantenimiento\\wwwroot\\js\\Utilidades.js",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "Title": "maquinasCheckList.js",
+              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\js\\maquinasCheckList.js",
+              "RelativeDocumentMoniker": "AppMantenimiento\\wwwroot\\js\\maquinasCheckList.js",
+              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\js\\maquinasCheckList.js*",
+              "RelativeToolTip": "AppMantenimiento\\wwwroot\\js\\maquinasCheckList.js*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswFIAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-03T06:42:17.831Z"
+              "WhenOpened": "2025-07-11T01:38:11.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_ModalCheckList.cshtml",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\CheckList\\_ModalCheckList.cshtml",
-              "RelativeDocumentMoniker": "AppMantenimiento\\Views\\CheckList\\_ModalCheckList.cshtml",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\CheckList\\_ModalCheckList.cshtml",
-              "RelativeToolTip": "AppMantenimiento\\Views\\CheckList\\_ModalCheckList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T04:58:15.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CheckList.js",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\js\\CheckList.js",
-              "RelativeDocumentMoniker": "AppMantenimiento\\wwwroot\\js\\CheckList.js",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\wwwroot\\js\\CheckList.js",
-              "RelativeToolTip": "AppMantenimiento\\wwwroot\\js\\CheckList.js",
-              "ViewState": "AgIAAI4AAAAAAAAAAIAwwJMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-03T01:51:18.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MaquinasApiController.cs",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\ControllersApi\\MaquinasApiController.cs",
-              "RelativeDocumentMoniker": "AppMantenimiento\\ControllersApi\\MaquinasApiController.cs",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\ControllersApi\\MaquinasApiController.cs",
-              "RelativeToolTip": "AppMantenimiento\\ControllersApi\\MaquinasApiController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCcAAAA3AAAAAAAAAA==",
+              "Title": "MaquinasCheckListController.cs",
+              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\ControllersApi\\MaquinasCheckListController.cs",
+              "RelativeDocumentMoniker": "AppMantenimiento\\ControllersApi\\MaquinasCheckListController.cs",
+              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\ControllersApi\\MaquinasCheckListController.cs",
+              "RelativeToolTip": "AppMantenimiento\\ControllersApi\\MaquinasCheckListController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T01:51:15.473Z",
+              "WhenOpened": "2025-07-11T01:13:02.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\CheckList\\Index.cshtml",
-              "RelativeDocumentMoniker": "AppMantenimiento\\Views\\CheckList\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\CheckList\\Index.cshtml",
-              "RelativeToolTip": "AppMantenimiento\\Views\\CheckList\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAqAAAAAAAAAA==",
+              "Title": "_modales.cshtml",
+              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\Maquinas\\_modales.cshtml",
+              "RelativeDocumentMoniker": "AppMantenimiento\\Views\\Maquinas\\_modales.cshtml",
+              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\Maquinas\\_modales.cshtml",
+              "RelativeToolTip": "AppMantenimiento\\Views\\Maquinas\\_modales.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwB4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T00:32:24.616Z",
+              "WhenOpened": "2025-07-11T00:45:55.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\Maquinas\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppMantenimiento\\Views\\Maquinas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vog20\\OneDrive\\Escritorio\\NET curso\\AppMantenimiento\\AppMantenimiento\\Views\\Maquinas\\Index.cshtml",
+              "RelativeToolTip": "AppMantenimiento\\Views\\Maquinas\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T00:22:36.833Z",
               "EditorCaption": ""
             }
           ]

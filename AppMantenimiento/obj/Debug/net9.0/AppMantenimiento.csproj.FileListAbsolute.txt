@@ -263,8 +263,10 @@ C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\o
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\m008frtlmh-8kjarcocxj.gz
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\wffd4hhi6v-mtq9ih5pls.gz
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\bn723d2hry-qaocao8vyd.gz
-C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\5imkmyxgub-7noy7opwbl.gz
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\ymvzuh1etl-4gzhajo9ku.gz
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\qbz5aijas3-uuy03xido7.gz
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\89wfx8fcko-682p5zj6vy.gz
-C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\dcf0a2iq71-xwt9g2m7n4.gz
+C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\AppMantenimiento.sourcelink.json
+C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\dcf0a2iq71-nls0149h1j.gz
+C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\5imkmyxgub-t4ood42eev.gz
+C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\obj\Debug\net9.0\compressed\h44fg9m897-0ffxcij62b.gz

@@ -1,3 +1,5 @@
+wwwroot\css\Login.css
+wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\img\Flags\mx - Copy.svg
 wwwroot\img\Flags\mx.svg
@@ -89,8 +91,10 @@ wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\qrcodes\qr_maquina_2.png
 wwwroot\qrcodes\qr_maquina_3.png
-wwwroot\css\Login.css
-wwwroot\css\site.css
+wwwroot\qrcodes\qr_maquina_4.png
+wwwroot\js\maquinasCheckList.js
+C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\css\Login.css
+C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\css\site.css
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\favicon.ico
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\img\Flags\mx - Copy.svg
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\img\Flags\mx.svg
@@ -173,5 +177,4 @@ C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\w
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\css\Login.css
-C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\css\site.css
+C:\Users\vog20\OneDrive\Escritorio\NET curso\AppMantenimiento\AppMantenimiento\wwwroot\js\maquinasCheckList.js

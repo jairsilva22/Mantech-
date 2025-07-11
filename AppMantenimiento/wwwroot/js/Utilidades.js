@@ -41,3 +41,14 @@ function confirmarEliminacion({ callbackAceptar, callbackCancelar, nombre }) {
         }
     });
 }
+
+
+function mostrarMensajeExito(titulo, mensaje) {
+    Swal.fire({
+        icon: 'success',
+        title: titulo,
+        text: mensaje,
+        confirmButtonColor: '#3085d6',
+        confirmButtonText: 'Aceptar'
+    });
+}

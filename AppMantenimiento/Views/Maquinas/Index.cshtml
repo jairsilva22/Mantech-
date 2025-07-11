@@ -1,106 +1,86 @@
 ﻿@model MaquinaListadoViewModel
 
-@{ 
-	ViewData["Title"] = "Lista de Máquinas"; 
+@{
+	ViewData["Title"] = "Máquinas";
 	Layout = "_Layout";
 }
 
 <div class="container mt-4">
-
-
-	<div class=" mt-4 align-items-center">
-		<div class="alert alert-light border-start border-2 border-secondary shadow-sm mb-4  p-2" role="alert" style="background-color: #f9f9f9;">
-			<strong>¿Qué ves aquí?</strong> Aquí puedes consultar todas las máquinas registradas en el sistema.
-			Desde esta vista podrás visualizar su información básica, el código QR generado automáticamente y acceder a opciones para editar o eliminar registros.
-			Ademas en detalles podras ver  que check list estan asignados a la máquina y que mantenimientos se han realizado.
-		</div>
-
-		<div class="col-12 text-md-end">
-			<div>
-				<a asp-action="Agregar" class="btn btn-primary shadow-sm" style="background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%);; border: none;">
-					<i class="bi bi-gear-wide me-2"></i>Nueva maquina
-				</a>
-			</div>			
-		</div>
+	<div class="alert alert-light border-start border-4 border-secondary shadow-sm p-3 mb-4">
+		<strong>¿Qué ves aquí?</strong> Lista visual de todas las máquinas registradas.
+		Puedes ver su información básica, código QR y acceder rápidamente a las opciones de mantenimiento.
 	</div>
 
-	<table class="table table-bordered align-middle shadow-sm mt-3 ">
-		<thead class="encabezado-tabla text-center">
-			<tr>
-				<th>Nombre</th>
-				<th>Ubicación</th>
-				<th>Código Interno</th>
-				<th>Notas</th>
-				<th>Qr</th>
-				<th>Acciones</th>
-			</tr>
-		</thead>
-		<tbody class="text-center">
-			@foreach (var maquina in Model.maquinas)
-			{
-				<tr>
-					<td>@maquina.Nombre</td>
-					<td>@maquina.Ubicacion</td>
-					<td>@maquina.CodigoInterno</td>
-					<td>@maquina.Notas</td>
-					<td>
-						<a href="#" class="btn btn-outline-primary"
-						   onclick="mostrarQrModal('@maquina.QrImagePath', '@maquina.Nombre')">
-							<i class="bi bi-qr-code"></i>
-						</a>
+	<div class="text-end mb-3">
+		<a asp-action="Agregar" class="btn btn-primary shadow-sm"
+		   style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); border: none;">
+			<i class="bi bi-gear-wide me-2"></i> Nueva máquina
+		</a>
+	</div>
 
-					</td>
-					<td class="text-center">
-						<a asp-action="Editar" asp-route-id="@maquina.Id" class="btn btn-outline-primary btn-sm me-1" title="Editar">
-							<i class="fas fa-edit"></i>
-						</a>
-						<a asp-action="Eliminar" asp-route-id="@maquina.Id" class="btn btn-outline-danger btn-sm" title="Eliminar">
-							<i class="fas fa-trash-alt"></i>
-						</a>
+	<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+		@foreach (var maquina in Model.maquinas)
+		{
+			<div class="col">
+				<div class="card h-100 shadow-sm" style="border: solid 1px #030238">
+					<div class="card-body">
+						<h5 class="card-title fw-bold text-dark">@maquina.Nombre</h5>
+						<p class="card-text mb-1">
+							<strong>Ubicación:</strong> @maquina.Ubicacion
+						</p>
+						<p class="card-text mb-1">
+							<strong>Código Interno:</strong> @maquina.CodigoInterno
+						</p>
+						<p class="card-text mb-2">
+							<strong>Notas:</strong> @maquina.Notas
+						</p>
+						<hr />
+						<div class="d-flex flex-wrap gap-2">
+							<button class="btn btn-outline-primary btn-sm"
+									onclick="mostrarQrModal('@maquina.QrImagePath', '@maquina.Nombre')">
+								<i class="bi bi-qr-code"></i> Ver QR
+							</button>
 
-						<a asp-action="Detalles" asp-route-id="@maquina.Id" class="btn btn-outline-secondary btn-sm" title="Detalles">
-							<i class="fas fa-circle-info"></i>
-						</a>
-					</td>
-				</tr>
-			}
-		</tbody>
-	</table>
+
+							<button class="btn btn-outline-success btn-sm"
+									onclick="mostrarCheckListModal(@maquina.Id)">
+								<i class="bi bi-ui-checks-grid"></i> Asignar Checklists
+							</button>
+
+							
+							<a asp-action="Editar" asp-route-id="@maquina.Id"
+							   class="btn btn-outline-secondary btn-sm">
+								<i class="fas fa-edit"></i> Editar
+							</a>
+							<a asp-action="Eliminar" asp-route-id="@maquina.Id"
+							   class="btn btn-outline-danger btn-sm">
+								<i class="fas fa-trash-alt"></i> Eliminar
+							</a>
+							<a asp-action="Detalles" asp-route-id="@maquina.Id"
+							   class="btn btn-outline-dark btn-sm">
+								<i class="fas fa-circle-info"></i> Detalles
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+
 	@if (!Model.maquinas.Any())
 	{
-		<div class="alert alert-info">No hay máquinas registradas.</div>
+		<div class="alert alert-info mt-4">No hay máquinas registradas.</div>
 	}
-
 </div>
+<partial name="_modales" />
 
 
-<!-- Modal para mostrar QR -->
-<div class="modal fade" id="qrModal" tabindex="-1" aria-labelledby="qrModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="qrModalLabel">Código QR de <span id="qrNombreMaquina"></span></h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-			</div>
-			<div class="modal-body text-center">
-				<img id="qrImagen" src="" class="img-fluid mb-3" alt="Código QR">
-				<br>
-				<a id="qrDescargar" href="#" download class="btn btn-primary">Descargar QR</a>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 @section Scripts {
+	<script src="~/js/maquinaschecklist.js"></script>
+	<script src="~/js/utilidades.js"></script>
 	<script>
-		function mostrarQrModal(qrPath, nombreMaquina) {
-			document.getElementById('qrImagen').src = qrPath;
-			document.getElementById('qrDescargar').href = qrPath;
-			document.getElementById('qrNombreMaquina').textContent = nombreMaquina;
-
-			const modal = new bootstrap.Modal(document.getElementById('qrModal'));
-			modal.show();
-		}
+		const urlMaquinasCheckList = "/api/MaquinasCheckLists";
 	</script>
 }
